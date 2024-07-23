@@ -27,7 +27,6 @@ from BABYMUSIC.utils.database import (
     group_assistant,
     is_autoend,
     music_on,_
-    remove_active_chat,
     remove_active_video_chat,
     set_loop,
 )
