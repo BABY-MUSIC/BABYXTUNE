@@ -50,7 +50,7 @@ async def init():
         pass
     await Baby.decorators()
     LOGGER("BABYMUSIC").info(
-        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @ll_ALPHA_BABY_lll , @PURVI_SUPPORT FOR ANY ISSUES MADE BY BABYMUSIC"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗨𝗧𝗧𝗔𝗠★𝗥𝗔𝗧𝗛𝗢𝗥𝗘\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
