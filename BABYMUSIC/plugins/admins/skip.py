@@ -50,7 +50,7 @@ async def skip(cli, message: Message, _, chat_id):
                                         ),
                                         reply_markup=close_markup(_),
                                     )
-                                    await VIP.stop_stream(chat_id)
+                                    await baby.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -77,7 +77,7 @@ async def skip(cli, message: Message, _, chat_id):
                     reply_markup=close_markup(_),
                 )
                 try:
-                    return await VIP.stop_stream(chat_id)
+                    return await baby.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -88,7 +88,7 @@ async def skip(cli, message: Message, _, chat_id):
                     ),
                     reply_markup=close_markup(_),
                 )
-                return await VIP.stop_stream(chat_id)
+                return await baby.stop_stream(chat_id)
             except:
                 return
     queued = check[0]["file"]
